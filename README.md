@@ -52,7 +52,7 @@ PickMatch is a web-based application that allows users to upload images of two d
 This project is licensed under the MIT License.
 
 ## Author
-Developed by [Your Name].
+Developed by [Great Joseph](jgreat770@gmail.com).
 
 For any contributions or issues, please feel free to submit a pull request or open an issue on GitHub.
 
