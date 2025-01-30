@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="wheels.css">
+    <title>Lover's Random Match</title>
+</head>
+<body>
+    <div class="container">
+        <div class="upload-section">
+            <div class="left-section" id="guys-section" onclick="upload('guys')">
+                <h2>Team 1</h2>
+                <div class="placeholder" id="guys-placeholder">Drag & Drop Guys' Images Here</div>
+            </div>
+            <div class="right-section" id="girls-section" onclick="upload('girls')">
+                <h2>Team 2</h2>
+                <div class="placeholder" id="girls-placeholder">Drag & Drop Girls' Images Here</div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="match-button">Match</button>
+            <button id="auto">automatic</button>
+        </div>
+
+        <div class="partners-section" id="partners-section">
+            <h2>Partners</h2>
+            <div id="partners-list"></div>
+        </div>
+    </div>
+
+    <!-- Modal for displaying matched images -->
+    <div id="match-modal" class="modal">
+        <div class="modal-content">
+            <h3>Matched!</h3>
+            <div id="modal-images" class="modal-images"></div>
+        </div>
+    </div>
+
+    <!-- TheWheelsOfTime -->
+    <div id="Wheels">
+        <div id="guys-wheels"></div>
+        <div id="girls-wheel"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
