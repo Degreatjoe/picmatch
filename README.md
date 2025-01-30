@@ -1,7 +1,7 @@
 # PickMatch
 
 ## Overview
-PickMatch is a web-based application that allows users to upload images of two different teams (e.g., guys and girls), then randomly match them. The application provides both a manual matching feature and an automatic matching feature that iteratively pairs images and displays them in a modal before moving them to a partners section.
+PickMatch is a web-based application that allows users to upload images of two different teams (e.g., guys and girls), then randomly match them. cick [here](index.html) to start using immediately. The application provides both a manual matching feature and an automatic matching feature that iteratively pairs images and displays them in a modal before moving them to a partners section.
 
 ## Features
 - Drag & drop or click-to-upload image functionality for both teams.
